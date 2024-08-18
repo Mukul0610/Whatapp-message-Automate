@@ -1,0 +1,25 @@
+# WhatsApp Message Automation Script
+
+This Python script automates sending WhatsApp messages using data from a CSV file. It ensures that messages are not sent multiple times to the same phone number by logging sent messages in a `sent_log.csv` file.
+
+## Features
+
+- **Automated Messaging**: Send WhatsApp messages directly from a CSV file.
+- **Duplicate Check**: Logs sent messages to avoid sending duplicates.
+- **Customizable**: Easily modify the script to fit your needs.
+
+## Prerequisites
+
+- Python 3.x
+- `pywhatkit` library
+- `pandas` library
+- (Optional) `pyvirtualdisplay` for headless servers
+
+## Installation
+
+1. Clone the repository:
+   ```command for terminal 
+   git clone https://github.com/yourusername/whatsapp-automation.git
+
+
+
